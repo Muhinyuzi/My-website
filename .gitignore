@@ -1,1 +1,3 @@
 *.pyc
+/[B]ackup/
+/__pycache__/
