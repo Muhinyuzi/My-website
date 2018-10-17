@@ -1,0 +1,124 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .text-center {
+      margin-top: 300px;
+     
+    }
+
+    .container-fluid{
+        background-color: #00b7c8;
+        height: 100%;
+
+      }
+    #myNavbar{
+      background-color: #00b7c8;
+    }
+    .navbar-header{
+      background-color: #00b7c8;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        color: white;
+        font-size: 1.5em;
+      }
+    .navbar .navbar-nav{
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin-top: 100px;
+        background-color: #00b7c8;
+
+      }
+      .description{
+        margin-top: 160px;
+        background-color: rgba(0,0,0,.55);
+
+      }
+      .top-article{
+        font-size: 1.5em;
+        color: white;
+      }
+      .top-news__item{
+        font-size: 1.5em;
+      }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .carousel-inner{
+      height: 400px;
+    }
+    .exercise{
+      margin-left: 200px;
+    }
+    .workout{
+      background-image: url(workout-logo.png);
+      height: 250px;
+      margin-bottom: 40px;
+    }
+    .motivation{
+      background-image:url(small.jpg);
+      height: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px; 
+    }
+
+    .nutrition{
+      background-image:url(diet.jpg);
+      height: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px; 
+    }
+    .dropdown-menu{
+      height: 200px;
+    }
+    .athletes{
+      width: 300px;
+    }
+    .dropdown-menu{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: none;
+    text-align: left;
+    }
+    .menu-list{
+      list-style: none;
+    }
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+    }
+    .dropdown-item{
+      font-size: 1.4em;
+    }
+
+
+
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
